@@ -28,7 +28,7 @@ jobs:
     - run: npm ci
     - run: npm run export
       env: 
-        NEXT_PUBLIC_PREFIX: /tip-calculator-app
+        NEXT_PUBLIC_PREFIX: /next-tail-ghpage-ts
     - run: touch ./out/.nojekyll
 
     - name: Deploy 🚀
