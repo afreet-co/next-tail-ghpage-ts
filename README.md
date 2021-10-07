@@ -29,3 +29,7 @@
   ```yml
   NEXT_PUBLIC_PREFIX: /next-tail-ghpage-ts
   ```
+  
+- Also, you need to enable the github page hosting from the setting of the repo in Github, then the pages options from sidebar, and then select gh-page and click Save. Then, the link will appear at top but when to try to open that link, maybe it will be `404: Not found`, for that we need to re-run the job, in order to get it right.
+
+- We can run the job again, by navigating to Action in the repo, click on the recent executed job and then there will be `Re-run jobs` button. You can see the site hosted at the github page link of the page, the one you get in the page setting. 
